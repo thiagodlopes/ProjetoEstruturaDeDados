@@ -1,0 +1,11 @@
+C:\Users\Documentos\source\repos\ListaEncadeada\ListaEncadeada\bin\Debug\netcoreapp3.0\ListaEncadeada.exe
+C:\Users\Documentos\source\repos\ListaEncadeada\ListaEncadeada\bin\Debug\netcoreapp3.0\ListaEncadeada.deps.json
+C:\Users\Documentos\source\repos\ListaEncadeada\ListaEncadeada\bin\Debug\netcoreapp3.0\ListaEncadeada.runtimeconfig.json
+C:\Users\Documentos\source\repos\ListaEncadeada\ListaEncadeada\bin\Debug\netcoreapp3.0\ListaEncadeada.runtimeconfig.dev.json
+C:\Users\Documentos\source\repos\ListaEncadeada\ListaEncadeada\bin\Debug\netcoreapp3.0\ListaEncadeada.dll
+C:\Users\Documentos\source\repos\ListaEncadeada\ListaEncadeada\bin\Debug\netcoreapp3.0\ListaEncadeada.pdb
+C:\Users\Documentos\source\repos\ListaEncadeada\ListaEncadeada\obj\Debug\netcoreapp3.0\ListaEncadeada.csprojAssemblyReference.cache
+C:\Users\Documentos\source\repos\ListaEncadeada\ListaEncadeada\obj\Debug\netcoreapp3.0\ListaEncadeada.AssemblyInfoInputs.cache
+C:\Users\Documentos\source\repos\ListaEncadeada\ListaEncadeada\obj\Debug\netcoreapp3.0\ListaEncadeada.AssemblyInfo.cs
+C:\Users\Documentos\source\repos\ListaEncadeada\ListaEncadeada\obj\Debug\netcoreapp3.0\ListaEncadeada.dll
+C:\Users\Documentos\source\repos\ListaEncadeada\ListaEncadeada\obj\Debug\netcoreapp3.0\ListaEncadeada.pdb
