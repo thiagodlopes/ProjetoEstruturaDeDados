@@ -1,15 +1,16 @@
 ﻿using System;
 using System.Globalization;
 using System.Collections.Generic;
-using System.Linq;
 namespace Agenda {
     public class Program {
         public static void Main(string[] args) {
 
             TextInfo informaçãoDeTexto = new CultureInfo("pt-BR", false).TextInfo;
             var agenda = new List<Contato>();
-            var gg = new CompararNome();
-        Menu();
+            var alfabeticamente = new CompararNome();
+            var cronologicamente = new CompararNascimento();
+
+            Menu();
 
             void Menu() {
 
@@ -61,57 +62,76 @@ namespace Agenda {
                 }
 
             }
-                void InserirContato() {
+            void InserirContato() {
 
-                    Console.Write("\r\nNome: ");
-                    string nome = Console.ReadLine();
-                    Console.Write("\r\nData de nascimento (AAAA/MM/DD): ");
-                    string nascimento = Console.ReadLine();
-                    Console.Write("\r\nCPF: ");
-                    string cpf = Console.ReadLine();
-                    Console.Write("\r\nEndereço: ");
-                    string endereco = Console.ReadLine();
-                    Console.Write("\r\nTelefone: ");
-                    string telefone = Console.ReadLine();
-                    Console.Write("\r\nE-mail: ");
-                    string eMail = Console.ReadLine();
+                Console.Write("\r\nNome: ");
+                string nome = Console.ReadLine();
+                Console.Write("\r\nData de nascimento (AAAA/MM/DD): ");
+                string nascimento = Console.ReadLine();
+                Console.Write("\r\nCPF: ");
+                string cpf = Console.ReadLine();
+                Console.Write("\r\nEndereço: ");
+                string endereco = Console.ReadLine();
+                Console.Write("\r\nTelefone: ");
+                string telefone = Console.ReadLine();
+                Console.Write("\r\nE-mail: ");
+                string eMail = Console.ReadLine();
 
-                    var contato = new Contato(informaçãoDeTexto.ToTitleCase(nome), informaçãoDeTexto.ToTitleCase(nascimento), informaçãoDeTexto.ToTitleCase(cpf), informaçãoDeTexto.ToTitleCase(endereco), informaçãoDeTexto.ToTitleCase(telefone), informaçãoDeTexto.ToLower(eMail));
-                    agenda.Add(contato);
+                var contato = new Contato(informaçãoDeTexto.ToTitleCase(nome), informaçãoDeTexto.ToTitleCase(nascimento), informaçãoDeTexto.ToTitleCase(cpf), informaçãoDeTexto.ToTitleCase(endereco), informaçãoDeTexto.ToTitleCase(telefone), informaçãoDeTexto.ToLower(eMail));
+                agenda.Add(contato);
 
+            }
+
+            string ContarContatos() {
+
+                if (agenda.Count == 1) {
+                    return ($"Há {agenda.Count} contato na sua agenda.");
+                }
+                else if (agenda.Count > 1) {
+                    return ($"Há {agenda.Count} contatos na sua agenda.");
+                }
+                else {
+                    return ("Não há contatos na agenda.");
                 }
 
-                string ContarContatos() {
+            }
 
-                    if (agenda.Count == 1) {
-                        return ($"Há {agenda.Count} contato na sua agenda.");
-                    }
-                    else if (agenda.Count > 1) {
-                        return ($"Há {agenda.Count} contatos na sua agenda.");
-                    }
-                    else {
-                        return ("Não há contatos na agenda.");
-                    }
+            void ListarContatos() {
+                if (agenda.Count > 0) { 
+                        Console.WriteLine("Deseja listar os contatos por [1] Nomes ou [2] Data de nascimento?");
+                        string criterioDeExibicao = Console.ReadLine();
+                        if (criterioDeExibicao == "1") {
+                            agenda.Sort(alfabeticamente);
+                            foreach (Contato contato in agenda) {
 
+                                Console.WriteLine();
+                                Console.WriteLine($"Nome: {contato.Nome}");
+                                Console.WriteLine($"Data de nascimento: {contato.DataDeNascimento}");
+                                Console.WriteLine($"CPF: {contato.Cpf}");
+                                Console.WriteLine($"Endereço: {contato.Endereco}");
+                                Console.WriteLine($"Telefone: {contato.Telefone}");
+                                Console.WriteLine($"E-mail: {contato.EMail}");
+
+                            }
+                        }
+                        else if (criterioDeExibicao == "2") {
+                            agenda.Sort(cronologicamente);
+                            foreach (Contato contato in agenda) {
+
+                                Console.WriteLine();
+                                Console.WriteLine($"Nome: {contato.Nome}");
+                                Console.WriteLine($"Data de nascimento: {contato.DataDeNascimento}");
+                                Console.WriteLine($"CPF: {contato.Cpf}");
+                                Console.WriteLine($"Endereço: {contato.Endereco}");
+                                Console.WriteLine($"Telefone: {contato.Telefone}");
+                                Console.WriteLine($"E-mail: {contato.EMail}");
+
+                            }
+
+                        }
                 }
-
-                void ListarContatos() {
-                    agenda.Sort(gg);
-                    foreach (Contato contato in agenda) {
-
-                        Console.WriteLine();
-                        Console.WriteLine($"Nome: {contato.Nome}");
-                        Console.WriteLine($"Data de nascimento: {contato.DataDeNascimento}");
-                        Console.WriteLine($"CPF: {contato.Cpf}");
-                        Console.WriteLine($"Endereço: {contato.Endereco}");
-                        Console.WriteLine($"Telefone: {contato.Telefone}");
-                        Console.WriteLine($"E-mail: {contato.EMail}");
-
-                    }
-
-                    Console.ReadLine();
-                }
-
+                Console.ReadLine();
+            }
                 void AlterarContato() {
 
                     Console.WriteLine("Qual contato será alterado? ");
