@@ -15,37 +15,7 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_07F9F2CEE4DA490588C2D4A614C99E73"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_28A9949617234E7AB2C045F223E7A55B"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_2F8E9C34378B44A9BAE29DFB9AD618C4"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_3B3D35350EFC4136BF7FCA5A881886F9"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_3BFA439C6E5D4D72AE64F18A43EA7249"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_40385CAB732A44769369962F0F5E59F1"
+        "MsmKey" = "8:_008813E91A7D4322AB5E35DD081706A8"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -57,43 +27,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_45FDA9A1E1CB4AE8BFD73538D50844E2"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_8168CEB0D42D46E9AFDC9E149ACDF554"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_CE2D4E2EFD0942A8B8A7482C7FB3A97F"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_DAEC90D414954D64A813B6E420552577"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_F205EB80EA0B47DF952927BC18225573"
+        "MsmKey" = "8:_4E3B0772E4A848E796EE6B61A93135F0"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_F71BB2DD64E247F495108985737C1F6D"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_F8326157E13D475E9F3482C2CCDEBCB5"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -129,11 +69,6 @@
                     "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 e x64)"
                     "ProductCode" = "8:.NETFramework,Version=v4.6.1"
                     }
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.8"
-                    {
-                    "Name" = "8:Microsoft .NET Framework 4.8 (x86 e x64)"
-                    "ProductCode" = "8:.NETFramework,Version=v4.8"
-                    }
                 }
             }
         }
@@ -159,6 +94,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
             }
         }
     }
@@ -181,101 +124,10 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_07F9F2CEE4DA490588C2D4A614C99E73"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_008813E91A7D4322AB5E35DD081706A8"
             {
-            "SourcePath" = "8:..\\ListaEncadeada\\bin\\Debug\\netcoreapp3.0\\Agenda.deps.json"
-            "TargetName" = "8:Agenda.deps.json"
-            "Tag" = "8:"
-            "Folder" = "8:_DD5A231F7B214D93B6CCB6A0E936F3FD"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_28A9949617234E7AB2C045F223E7A55B"
-            {
-            "SourcePath" = "8:..\\ListaEncadeada\\bin\\Debug\\netcoreapp3.0\\Agenda.runtimeconfig.json"
-            "TargetName" = "8:Agenda.runtimeconfig.json"
-            "Tag" = "8:"
-            "Folder" = "8:_DD5A231F7B214D93B6CCB6A0E936F3FD"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2F8E9C34378B44A9BAE29DFB9AD618C4"
-            {
-            "SourcePath" = "8:..\\ListaEncadeada\\bin\\Debug\\netcoreapp3.0\\ListaEncadeada.runtimeconfig.dev.json"
-            "TargetName" = "8:ListaEncadeada.runtimeconfig.dev.json"
-            "Tag" = "8:"
-            "Folder" = "8:_DD5A231F7B214D93B6CCB6A0E936F3FD"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3BFA439C6E5D4D72AE64F18A43EA7249"
-            {
-            "SourcePath" = "8:..\\ListaEncadeada\\bin\\Debug\\netcoreapp3.0\\ListaEncadeada.deps.json"
-            "TargetName" = "8:ListaEncadeada.deps.json"
-            "Tag" = "8:"
-            "Folder" = "8:_DD5A231F7B214D93B6CCB6A0E936F3FD"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_40385CAB732A44769369962F0F5E59F1"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:ListaEncadeada, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_40385CAB732A44769369962F0F5E59F1"
-                    {
-                    "Name" = "8:ListaEncadeada.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\ListaEncadeada\\bin\\Debug\\netcoreapp3.0\\ListaEncadeada.dll"
-            "TargetName" = "8:"
+            "SourcePath" = "8:D:\\User\\Desktop\\icone pra agenda\\icone agenda.ico"
+            "TargetName" = "8:icone agenda.ico"
             "Tag" = "8:"
             "Folder" = "8:_DD5A231F7B214D93B6CCB6A0E936F3FD"
             "Condition" = "8:"
@@ -312,106 +164,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_45FDA9A1E1CB4AE8BFD73538D50844E2"
-            {
-            "SourcePath" = "8:..\\ListaEncadeada\\bin\\Debug\\netcoreapp3.0\\ListaEncadeada.runtimeconfig.json"
-            "TargetName" = "8:ListaEncadeada.runtimeconfig.json"
-            "Tag" = "8:"
-            "Folder" = "8:_DD5A231F7B214D93B6CCB6A0E936F3FD"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8168CEB0D42D46E9AFDC9E149ACDF554"
-            {
-            "SourcePath" = "8:..\\ListaEncadeada\\bin\\Debug\\netcoreapp3.0\\Agenda.runtimeconfig.dev.json"
-            "TargetName" = "8:Agenda.runtimeconfig.dev.json"
-            "Tag" = "8:"
-            "Folder" = "8:_DD5A231F7B214D93B6CCB6A0E936F3FD"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CE2D4E2EFD0942A8B8A7482C7FB3A97F"
-            {
-            "SourcePath" = "8:..\\ListaEncadeada\\bin\\Debug\\netcoreapp3.0\\ListaEncadeada.pdb"
-            "TargetName" = "8:ListaEncadeada.pdb"
-            "Tag" = "8:"
-            "Folder" = "8:_DD5A231F7B214D93B6CCB6A0E936F3FD"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DAEC90D414954D64A813B6E420552577"
-            {
-            "SourcePath" = "8:D:\\User\\Desktop\\icone pra agenda\\icone agenda.ico"
-            "TargetName" = "8:icone agenda.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_DD5A231F7B214D93B6CCB6A0E936F3FD"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F205EB80EA0B47DF952927BC18225573"
-            {
-            "SourcePath" = "8:..\\ListaEncadeada\\bin\\Debug\\netcoreapp3.0\\ListaEncadeada.exe"
-            "TargetName" = "8:ListaEncadeada.exe"
-            "Tag" = "8:"
-            "Folder" = "8:_DD5A231F7B214D93B6CCB6A0E936F3FD"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F71BB2DD64E247F495108985737C1F6D"
             {
             "AssemblyRegister" = "3:1"
@@ -427,26 +179,6 @@
                 }
             "SourcePath" = "8:..\\ListaEncadeada\\bin\\Debug\\netcoreapp3.0\\Agenda.dll"
             "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_DD5A231F7B214D93B6CCB6A0E936F3FD"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F8326157E13D475E9F3482C2CCDEBCB5"
-            {
-            "SourcePath" = "8:..\\ListaEncadeada\\bin\\Debug\\netcoreapp3.0\\Agenda.pdb"
-            "TargetName" = "8:Agenda.pdb"
             "Tag" = "8:"
             "Folder" = "8:_DD5A231F7B214D93B6CCB6A0E936F3FD"
             "Condition" = "8:"
@@ -520,7 +252,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Agenda de Contatos"
         "ProductCode" = "8:{850ABEA6-0D8C-4325-8F1F-70B4003F5072}"
-        "PackageCode" = "8:{2CC9956B-49B2-4CD4-B2DA-374B908F34FB}"
+        "PackageCode" = "8:{71A7BEE5-E26F-451A-9745-409AAEF3CF25}"
         "UpgradeCode" = "8:{07CEF64D-BDC8-43A3-97FB-4F7435F4D99A}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -651,7 +383,7 @@
             "Target" = "8:_434ED337A835448CAC687AC66B945343"
             "Folder" = "8:_ED3C1DF384FA4D1B9EF957D09BD8E84F"
             "WorkingFolder" = "8:_DD5A231F7B214D93B6CCB6A0E936F3FD"
-            "Icon" = "8:_DAEC90D414954D64A813B6E420552577"
+            "Icon" = "8:_008813E91A7D4322AB5E35DD081706A8"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_C7F6FB344543484C8734BCAB74BDE13B"
@@ -665,7 +397,7 @@
             "Target" = "8:_434ED337A835448CAC687AC66B945343"
             "Folder" = "8:_9AB22E51FEB74D3D85A96CC10A91A4D0"
             "WorkingFolder" = "8:_DD5A231F7B214D93B6CCB6A0E936F3FD"
-            "Icon" = "8:_DAEC90D414954D64A813B6E420552577"
+            "Icon" = "8:_008813E91A7D4322AB5E35DD081706A8"
             "Feature" = "8:"
             }
         }
@@ -1067,7 +799,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_3B3D35350EFC4136BF7FCA5A881886F9"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_4E3B0772E4A848E796EE6B61A93135F0"
             {
             "SourcePath" = "8:..\\ListaEncadeada\\obj\\Debug\\netcoreapp3.0\\Agenda.dll"
             "TargetName" = "8:"

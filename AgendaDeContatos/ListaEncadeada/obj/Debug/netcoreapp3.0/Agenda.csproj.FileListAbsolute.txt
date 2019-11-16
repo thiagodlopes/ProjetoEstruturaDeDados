@@ -8,4 +8,3 @@ C:\Users\Documentos\source\repos\AgendaDeContatos\ListaEncadeada\obj\Debug\netco
 C:\Users\Documentos\source\repos\AgendaDeContatos\ListaEncadeada\obj\Debug\netcoreapp3.0\Agenda.AssemblyInfo.cs
 C:\Users\Documentos\source\repos\AgendaDeContatos\ListaEncadeada\obj\Debug\netcoreapp3.0\Agenda.dll
 C:\Users\Documentos\source\repos\AgendaDeContatos\ListaEncadeada\obj\Debug\netcoreapp3.0\Agenda.pdb
-C:\Users\Documentos\source\repos\AgendaDeContatos\ListaEncadeada\obj\Debug\netcoreapp3.0\Agenda.csprojAssemblyReference.cache
